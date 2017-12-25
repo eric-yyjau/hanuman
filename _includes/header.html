@@ -51,20 +51,10 @@
   {% if site.contact %}
     <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.contact }}" class="text-decoration-none">Contact</a></li>
   {% endif %}
-  {% endif %} {% if site.research %}
+  {% if site.contact %}
+    <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.contact }}" class="text-decoration-none">ontact</a></li>
+  {% endif %}
 
-  <li class="px1">
-      <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.research}}">Research</a>
-  </li>
-  {% endif %} {% if site.cv %}
-
-  <li class="px1">
-      <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.cv}}">Curriculum Vitae</a>
-  </li>
-  {% endif %} {% if site.leisure %}
-  <li class="px1">
-      <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.leisure}}">Leisure</a>
-  </li>
   {% if site.privacy-policy %}
     <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.privacy-policy }}" class="text-decoration-none">Privacy Policy</a></li>
   {% endif %}
